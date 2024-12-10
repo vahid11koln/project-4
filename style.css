@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Byekan;
+    src: url(./fonts/Byekan.ttf) format('truetype'),
+         url(./fonts/Byekan.woff) format(woff);
+}
+@font-face {
+    font-family: lalehzar;
+    src: url(./fonts/lalezar.ttf) format(truetype),
+         url(./fonts/lalezar.woff) format(woff);
+}
+body{
+    font-family: byekan;
+}
+.header{
+    height: 550px;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+}
+.nav-list{
+    list-style-type: none;
+    text-align: center;
+}
+.nav-item{
+    display: inline-block;
+    padding: 15px;
+}
+.nav-item:hover{
+    display: inline-block;
+    padding: 15px;
+    color: orange;
+}
+.title-h1{
+    font-family: lalehzar;
+    font-size: 60px;
+    margin-top: 90px;
+    
+}
+span{
+    color: yellow;
+}
+.desc{
+    width: 450px;
+    margin: auto;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    border: 1px white solid;
+    margin-top: 30px;
+}
+.members{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.member-container{
+    list-style-type: none;
+}
+.member-list{
+    width: 350px;
+    display: inline-block;
+    box-shadow: 0 0 15px #bbbbbb;
+    margin: 20px 10px;
+    
+}
+.member-pic{
+    width: 100%;
+}
+.member-name{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.member-bio{
+    padding: 20px;
+    text-align: justify;
+    
+}
