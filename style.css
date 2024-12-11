@@ -82,6 +82,33 @@ span{
 }
 .member-bio{
     padding: 20px;
-    text-align: justify;
+    text-align: justify;    
+}
+.about{
+    background-image: url(./images/bg.jpg) ;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    padding-top: 100px;
+    background-color: #393939;
+    background-blend-mode: multiply;
+}
+.circle{
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    display: inline-block;
+    height: 600px;
+    width: 600px;
+    padding: 100px 50px;
+}
+.company-about{
+    margin-top: 20px;
+    font-size: 35px;
     
+}
+.desc-about{
+    display: inline-block;
+    width: 500px;
+    margin-top: 70px;
+    text-align: justify;
 }
